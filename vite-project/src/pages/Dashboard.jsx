@@ -1,11 +1,20 @@
-import React from 'react'
+import { Link, Outlet } from 'react-router-dom';
 
 function Dashboard() {
   return (
     <div>
-      Dashboard
+      <h2>Dashboard Page</h2>
+      <nav>
+        <Link to="profile">Go to Profile</Link> |{" "}
+        <Link to="orders">Go to Orders</Link>
+      </nav>
+
+      <hr />
+
+      {/* This is where child route will appear */}
+      <Outlet />
     </div>
-  )
+  );
 }
 
-export default Dashboard
+export default Dashboard;
