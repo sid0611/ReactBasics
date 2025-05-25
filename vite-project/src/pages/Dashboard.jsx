@@ -8,6 +8,8 @@ function Dashboard() {
         <Link to="profile">Go to Profile</Link> |{" "}
         <Link to="orders">Go to Orders</Link>
         <h1>Helllo All dced</h1>
+        <h1>Helllo All dced</h1>
+
       </nav>
       {/* ?/ hjb */}
 
